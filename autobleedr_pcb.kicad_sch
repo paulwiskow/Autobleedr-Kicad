@@ -4679,6 +4679,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 129.54) (xy 154.94 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3186d651-8bba-4d8c-9df5-ca49f6442f14")
+	)
+	(wire
+		(pts
 			(xy 251.46 90.17) (xy 252.73 90.17)
 		)
 		(stroke
@@ -5089,6 +5099,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 127) (xy 154.94 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fb7bbed-60ba-496d-980d-364b79e265ac")
+	)
+	(wire
+		(pts
 			(xy 181.61 107.95) (xy 186.69 107.95)
 		)
 		(stroke
@@ -5386,6 +5406,16 @@
 			(type default)
 		)
 		(uuid "d614ab60-b9d0-48a9-b098-f1fd598f2e5f")
+	)
+	(wire
+		(pts
+			(xy 151.13 130.81) (xy 151.13 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6acf447-da66-4381-9008-4d2fa02d9383")
 	)
 	(wire
 		(pts
@@ -7044,6 +7074,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 151.13 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e9948ad-2e46-42ca-a0ce-ed2f45751688")
+		(property "Reference" "#PWR027"
+			(at 151.13 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d559e9e6-176b-48d0-910a-8c5133e0780e")
+		)
+		(instances
+			(project "autobleedr_pcb"
+				(path "/1cb070e6-4268-4590-be3a-70f1be021dfd"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 149.86 107.95 0)
 		(unit 1)
@@ -7447,6 +7543,74 @@
 			(project "autobleedr_pcb"
 				(path "/1cb070e6-4268-4590-be3a-70f1be021dfd"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 160.02 127 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be2d7b70-9b85-43bf-b4ce-4da4d71238dc")
+		(property "Reference" "J11"
+			(at 159.385 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 159.385 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 160.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 160.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3fa9670c-72a1-4183-b652-c6de7a8890cc")
+		)
+		(pin "1"
+			(uuid "c00fcc7c-9c04-4fc6-95c4-332c4c2e5a9e")
+		)
+		(instances
+			(project "autobleedr_pcb"
+				(path "/1cb070e6-4268-4590-be3a-70f1be021dfd"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -8317,6 +8481,72 @@
 			(project "autobleedr_pcb"
 				(path "/1cb070e6-4268-4590-be3a-70f1be021dfd"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 149.86 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fefe8be0-c7eb-4d05-980b-175582cd2af7")
+		(property "Reference" "#PWR026"
+			(at 149.86 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 149.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 149.86 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a7f799c-ea39-456f-9c18-c543ffad515c")
+		)
+		(instances
+			(project "autobleedr_pcb"
+				(path "/1cb070e6-4268-4590-be3a-70f1be021dfd"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
