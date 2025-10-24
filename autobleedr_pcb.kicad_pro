@@ -453,13 +453,14 @@
       "ESP-32",
       "Adafruit",
       "Pololu",
-      "Euogeudel"
+      "Euogeudel",
+      "Capstone_Footprints"
     ],
     "pinned_symbol_libs": [
       "Pololu",
-      "Adafruit",
       "ESP-32",
-      "Euogeudel"
+      "Euogeudel",
+      "Capstone_Symbols"
     ]
   },
   "meta": {

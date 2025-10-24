@@ -1,4 +1,4 @@
-26715378834047661
+26722424032337317
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6705,6 +6705,34 @@ capacitor tantalum
 0
 2
 2
+Capstone_Footprints
+Buck_Converter
+
+
+0
+4
+4
+Capstone_Footprints
+DVR8874
+
+
+0
+14
+14
+Capstone_Footprints
+ESP32
+
+
+0
+30
+30
+Capstone_Footprints
+TMC2209
+
+
+0
+10
+10
 Connector
 BJB_Pico_46.110.1001_Receptacle_Horizontal
 BJB Pico, single terminal block/receptacle, uninsulated, SMD, 6.9x2.3x2.7mm, https://www.bjb.com/media/7a/b3/df/1740905546/DM-6265102-v6_BJB_Datasheet_46.110.1001-0_SMD_Terminal_block_without_housing_Update_03_2022.PDF
@@ -97262,8 +97290,8 @@ Screw_Terminal_1x8
 
 
 0
-0
-0
+8
+8
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
