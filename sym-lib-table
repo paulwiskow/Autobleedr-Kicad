@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "autobleedr_pcb-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/autobleedr_pcb-eagle-import.kicad_sym")(options "")(descr ""))
   (lib (name "Capstone_Symbols")(type "KiCad")(uri "${KIPRJMOD}/symbol_library/Capstone_Symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "Select_Battery_Switch")(type "KiCad")(uri "${KIPRJMOD}/symbol_library/7201SYCQE.kicad_sym")(options "")(descr ""))
 )
