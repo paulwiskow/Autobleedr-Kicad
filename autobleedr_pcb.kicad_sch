@@ -4528,10 +4528,6 @@
 		(uuid "c09ed96f-805e-4f82-8ea0-bf5a593910c5")
 	)
 	(no_connect
-		(at 163.83 27.94)
-		(uuid "c3d9deb2-63d7-4ca6-8674-4aab89884a7a")
-	)
-	(no_connect
 		(at 163.83 38.1)
 		(uuid "c4bb1fb9-df30-4d97-ac6e-d024125fb094")
 	)
@@ -4574,6 +4570,16 @@
 			(type default)
 		)
 		(uuid "00f363f7-b420-47de-a390-4154722a7810")
+	)
+	(wire
+		(pts
+			(xy 166.37 19.05) (xy 167.64 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "019e0b32-7407-4c9f-876b-383fe577064f")
 	)
 	(wire
 		(pts
@@ -5857,6 +5863,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 27.94) (xy 166.37 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de971916-2290-48d5-b28a-74246244f2e3")
+	)
+	(wire
+		(pts
 			(xy 205.74 54.61) (xy 220.98 54.61)
 		)
 		(stroke
@@ -5904,6 +5920,16 @@
 			(type default)
 		)
 		(uuid "e84597ac-b7ab-4c6f-a9ec-ba8bd856e2cb")
+	)
+	(wire
+		(pts
+			(xy 163.83 27.94) (xy 166.37 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e98238eb-9a4d-4731-8b77-da63536e44fb")
 	)
 	(wire
 		(pts
@@ -6779,6 +6805,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 167.64 19.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e64dfa4-9ed7-4be5-ac06-55bdc5edec1c")
+		(property "Reference" "#PWR040"
+			(at 173.99 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 19.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a807fb1-44f3-443c-8af0-4f3722295575")
+		)
+		(instances
+			(project "autobleedr_pcb"
+				(path "/1cb070e6-4268-4590-be3a-70f1be021dfd"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 149.86 160.02 0)
 		(unit 1)
@@ -7263,7 +7356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37cb38cc-e67e-4d2c-b3ba-add38b315d96")
-		(property "Reference" "U1"
+		(property "Reference" "LinU1"
 			(at 150.495 73.66 0)
 			(effects
 				(font
@@ -7351,7 +7444,7 @@
 		(instances
 			(project ""
 				(path "/1cb070e6-4268-4590-be3a-70f1be021dfd"
-					(reference "U1")
+					(reference "LinU1")
 					(unit 1)
 				)
 			)
@@ -7477,7 +7570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "446ca1b3-8d72-4f1b-879c-3c66391d9163")
-		(property "Reference" "U7"
+		(property "Reference" "ERMU7"
 			(at 151.765 113.03 0)
 			(effects
 				(font
@@ -7565,7 +7658,7 @@
 		(instances
 			(project ""
 				(path "/1cb070e6-4268-4590-be3a-70f1be021dfd"
-					(reference "U7")
+					(reference "ERMU7")
 					(unit 1)
 				)
 			)

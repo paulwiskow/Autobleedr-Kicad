@@ -1,4 +1,4 @@
-26722424032337317
+26724185919306592
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6705,6 +6705,13 @@ capacitor tantalum
 0
 2
 2
+Capstone_Footprints
+7201SYCQE
+7201SYCQE-1
+Switch
+0
+6
+6
 Capstone_Footprints
 Buck_Converter
 
