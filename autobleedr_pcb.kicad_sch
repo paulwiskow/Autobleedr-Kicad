@@ -112,7 +112,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -130,7 +130,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4613,7 +4613,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 62.23) (xy 260.35 62.23)
+			(xy 255.27 62.23) (xy 256.54 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4863,6 +4863,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 62.23) (xy 256.54 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "367d97ff-4f86-49c1-b685-ee1e1caaf5ff")
+	)
+	(wire
+		(pts
 			(xy 209.55 34.29) (xy 209.55 36.83)
 		)
 		(stroke
@@ -5070,16 +5080,6 @@
 			(type default)
 		)
 		(uuid "5be30cfe-97ad-4a53-8298-4b1cc2280b95")
-	)
-	(wire
-		(pts
-			(xy 260.35 62.23) (xy 260.35 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c012ddf-3a87-4eae-b3ec-248a5a160e98")
 	)
 	(wire
 		(pts
@@ -6403,6 +6403,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 256.54 66.04 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "733351b4-f34c-4a62-b824-278c2e49cb1f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.54 72.5328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8861,7 +8883,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8bf0d296-8972-4558-92e0-4038e0b882fa")
 		(property "Reference" "#PWR05"
 			(at 67.31 124.46 0)
@@ -8873,7 +8894,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 123.19 0)
+			(at 69.088 117.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9243,71 +9264,6 @@
 			(project "autobleedr_pcb"
 				(path "/1cb070e6-4268-4590-be3a-70f1be021dfd"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 260.35 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a574802c-75f8-421e-98e5-e4e9ed7544b1")
-		(property "Reference" "#PWR011"
-			(at 260.35 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 260.35 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.35 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 260.35 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e21c4ccb-6316-4b50-9e34-1bf993fe55fc")
-		)
-		(instances
-			(project "autobleedr_pcb"
-				(path "/1cb070e6-4268-4590-be3a-70f1be021dfd"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -9920,7 +9876,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c674d81c-ebc1-4c1a-a162-c016b9d36b1b")
 		(property "Reference" "#PWR030"
 			(at 72.39 127 0)
@@ -9932,7 +9887,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 72.39 118.11 0)
+			(at 75.946 121.666 0)
 			(effects
 				(font
 					(size 1.27 1.27)

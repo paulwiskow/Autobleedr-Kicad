@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capstone_Footprints:Buck_Converter"
 			(at 0 0 0)
 			(effects
 				(font
