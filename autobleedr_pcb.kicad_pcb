@@ -9384,6 +9384,18 @@
 		(layer "Edge.Cuts")
 		(uuid "d1a9dd84-aa69-438c-9b7b-4b2ca629cadc")
 	)
+	(gr_text "Sel: Barrel Jack"
+		(at 63 115 0)
+		(layer "F.SilkS")
+		(uuid "1dc6463e-0fd3-4578-ba17-70c11b32fa9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "3V3"
 		(at 90.497 92.828 0)
 		(layer "F.SilkS")
