@@ -107,7 +107,7 @@
 		(tenting front back)
 		(grid_origin 48.999902 151.99995)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5555552f)
+			(layerselection 0x00000000_00000000_55555555_5755552f)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -12342,7 +12342,7 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12836,7 +12836,7 @@
 		(uuid "d1a9dd84-aa69-438c-9b7b-4b2ca629cadc")
 	)
 	(gr_text "Sel: Barrel Jack"
-		(at 61.849902 115.09995 0)
+		(at 62.299902 115.79995 0)
 		(layer "F.SilkS")
 		(uuid "1dc6463e-0fd3-4578-ba17-70c11b32fa9b")
 		(effects
