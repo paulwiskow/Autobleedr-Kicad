@@ -3727,6 +3727,12 @@
 		(color 0 0 0 0)
 		(uuid "e2203a1e-dc9a-4263-aaa9-97e203dde1f7")
 	)
+	(junction
+		(at 257.81 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f26d651c-12e9-470e-96e6-fd7134e4916b")
+	)
 	(no_connect
 		(at 163.83 40.64)
 		(uuid "06d0e2aa-5b95-4a9a-8c9e-6484153e259a")
@@ -3798,14 +3804,6 @@
 	(no_connect
 		(at 162.56 129.54)
 		(uuid "6d16b51e-e554-4ed1-803e-40bc2e6dbf88")
-	)
-	(no_connect
-		(at 243.84 110.49)
-		(uuid "6d7c2c44-f715-4bfb-b1f9-bea7a7b8cbbb")
-	)
-	(no_connect
-		(at 243.84 107.95)
-		(uuid "8643f648-0fbf-4ddd-b625-45491fceb5be")
 	)
 	(no_connect
 		(at 243.84 95.25)
@@ -3965,6 +3963,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 110.49) (xy 257.81 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f6b1a32-472e-4bb2-b37d-fd0ee5f612aa")
+	)
+	(wire
+		(pts
 			(xy 140.97 129.54) (xy 132.08 129.54)
 		)
 		(stroke
@@ -4052,6 +4060,16 @@
 			(type default)
 		)
 		(uuid "2ab02b02-418d-47e0-b127-1a6c875f84f8")
+	)
+	(wire
+		(pts
+			(xy 243.84 110.49) (xy 257.81 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2591dd-c9b0-4303-ab9b-a4abf92adbe6")
 	)
 	(wire
 		(pts
@@ -4395,16 +4413,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 87.63) (xy 248.92 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "707832af-0f82-4aaf-a4a5-b5b467506135")
-	)
-	(wire
-		(pts
 			(xy 45.72 116.84) (xy 45.72 120.65)
 		)
 		(stroke
@@ -4655,6 +4663,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 107.95) (xy 247.65 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a7a9b63-93dd-4344-8f9e-5ce0b484ee22")
+	)
+	(wire
+		(pts
 			(xy 101.6 173.99) (xy 107.95 173.99)
 		)
 		(stroke
@@ -4782,6 +4800,16 @@
 			(type default)
 		)
 		(uuid "be6637f3-eb0c-47df-81f8-1edc6468f98f")
+	)
+	(wire
+		(pts
+			(xy 257.81 107.95) (xy 262.89 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf11996c-2c55-4f38-87b3-b6e5ae23d1ab")
 	)
 	(wire
 		(pts
@@ -5125,6 +5153,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 107.95) (xy 257.81 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda93ca0-f595-4142-8ad3-a01455fecaa8")
+	)
+	(wire
+		(pts
 			(xy 125.73 121.92) (xy 132.08 121.92)
 		)
 		(stroke
@@ -5273,6 +5311,16 @@
 		)
 		(uuid "4316841e-39a0-46ed-873b-cee86b813b76")
 	)
+	(label "TMC UART"
+		(at 262.89 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47679dd3-451c-4cf2-80ff-558e17a8adf6")
+	)
 	(label "direction ERM DRV"
 		(at 185.42 110.49 0)
 		(effects
@@ -5412,16 +5460,6 @@
 			(justify left bottom)
 		)
 		(uuid "a7ce38ee-5bff-444b-a367-dcbc5063a7a0")
-	)
-	(label "TMC UART"
-		(at 248.92 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a9aad6f8-9d7a-4619-9ca7-22a23ddd650f")
 	)
 	(label "Battery+"
 		(at 19.05 27.94 0)
@@ -5772,6 +5810,74 @@
 			(project "autobleedr_pcb"
 				(path "/1cb070e6-4268-4590-be3a-70f1be021dfd"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 251.46 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a65b2e1-af98-48a1-987c-25ab4e70b096")
+		(property "Reference" "R5"
+			(at 251.46 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1500R"
+			(at 251.46 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 251.46 109.728 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 251.46 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dc1a2a41-d078-4701-a28d-8be71de4e735")
+		)
+		(pin "1"
+			(uuid "cd2be6bb-7225-49b9-a949-944bb44dc2a1")
+		)
+		(instances
+			(project "autobleedr_pcb"
+				(path "/1cb070e6-4268-4590-be3a-70f1be021dfd"
+					(reference "R5")
 					(unit 1)
 				)
 			)
