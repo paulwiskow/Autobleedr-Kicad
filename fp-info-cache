@@ -1,4 +1,4 @@
-26724186584514705
+26727718259761203
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6720,6 +6720,13 @@ Buck_Converter
 4
 4
 Capstone_Footprints
+DMP6023LE
+
+
+0
+4
+4
+Capstone_Footprints
 DVR8874
 
 
@@ -6733,6 +6740,13 @@ ESP32
 0
 30
 30
+Capstone_Footprints
+R1966ABLKBLKGR
+
+
+0
+2
+2
 Capstone_Footprints
 TMC2209
 
