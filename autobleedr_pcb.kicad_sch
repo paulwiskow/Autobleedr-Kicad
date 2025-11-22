@@ -4234,12 +4234,20 @@
 		(uuid "3e36b44c-28a9-4857-9780-a01567466de0")
 	)
 	(no_connect
+		(at 218.44 110.49)
+		(uuid "48146bb1-078e-4360-a497-c7c273757e86")
+	)
+	(no_connect
 		(at 218.44 115.57)
 		(uuid "4ac03c20-97a5-46b6-923a-0f8a13654890")
 	)
 	(no_connect
 		(at 243.84 92.71)
 		(uuid "5284e08f-476d-4889-959e-e9dfbde10699")
+	)
+	(no_connect
+		(at 218.44 107.95)
+		(uuid "58920512-e6cc-4e1b-90c2-7b420f569c98")
 	)
 	(no_connect
 		(at 218.44 118.11)
@@ -4268,6 +4276,10 @@
 	(no_connect
 		(at 243.84 95.25)
 		(uuid "88c97ddd-6eec-482c-8a2d-4be49d2aac27")
+	)
+	(no_connect
+		(at 243.84 87.63)
+		(uuid "8eae90df-b7d8-4290-806f-4e36c65a5feb")
 	)
 	(no_connect
 		(at 161.29 90.17)
@@ -5165,16 +5177,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 107.95) (xy 218.44 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9c6c452-7d84-4a98-97fe-1834abf12d27")
-	)
-	(wire
-		(pts
 			(xy 69.85 36.83) (xy 69.85 34.29)
 		)
 		(stroke
@@ -5573,16 +5575,6 @@
 		)
 		(uuid "fe6b513f-45e2-4711-ad98-e264d38f7fb4")
 	)
-	(wire
-		(pts
-			(xy 185.42 110.49) (xy 218.44 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff02d14e-b2cf-41e9-85af-9c14063bb3f0")
-	)
 	(label "enable DRV"
 		(at 137.16 101.6 0)
 		(effects
@@ -5702,16 +5694,6 @@
 			(justify left bottom)
 		)
 		(uuid "47679dd3-451c-4cf2-80ff-558e17a8adf6")
-	)
-	(label "direction ERM DRV"
-		(at 185.42 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "48e605e3-33bf-471a-b671-4853cfa02e7c")
 	)
 	(label "Battery-"
 		(at 19.05 30.48 0)
@@ -5912,16 +5894,6 @@
 			(justify left bottom)
 		)
 		(uuid "ccbbc7d6-8cb1-40c7-ada7-3a5a54819619")
-	)
-	(label "enable ERM DRV"
-		(at 184.15 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d3977dbf-5ec4-436b-a2d3-551641abd98e")
 	)
 	(label "photo transistor vin"
 		(at 17.78 85.09 0)
