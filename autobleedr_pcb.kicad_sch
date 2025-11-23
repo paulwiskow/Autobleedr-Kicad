@@ -4278,10 +4278,6 @@
 		(uuid "88c97ddd-6eec-482c-8a2d-4be49d2aac27")
 	)
 	(no_connect
-		(at 243.84 87.63)
-		(uuid "8eae90df-b7d8-4290-806f-4e36c65a5feb")
-	)
-	(no_connect
 		(at 161.29 90.17)
 		(uuid "9b89dab4-c00c-4595-8fa0-306f835d184e")
 	)
@@ -4324,16 +4320,6 @@
 	(no_connect
 		(at 139.7 95.25)
 		(uuid "fa03ed9d-978f-4b83-988a-6d485ff13f01")
-	)
-	(wire
-		(pts
-			(xy 166.37 19.05) (xy 167.64 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "019e0b32-7407-4c9f-876b-383fe577064f")
 	)
 	(wire
 		(pts
@@ -5137,6 +5123,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 87.63) (xy 262.89 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa818ab5-4e28-48b4-b65a-756fa8c01ec2")
+	)
+	(wire
+		(pts
 			(xy 213.36 119.38) (xy 213.36 123.19)
 		)
 		(stroke
@@ -5357,16 +5353,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 27.94) (xy 166.37 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de971916-2290-48d5-b28a-74246244f2e3")
-	)
-	(wire
-		(pts
 			(xy 142.24 123.19) (xy 153.67 123.19)
 		)
 		(stroke
@@ -5447,7 +5433,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 27.94) (xy 166.37 27.94)
+			(xy 163.83 27.94) (xy 168.91 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5614,6 +5600,16 @@
 			(justify left bottom)
 		)
 		(uuid "11359d5b-9bc9-432b-aed7-1ec27cb39fc4")
+	)
+	(label "EN"
+		(at 262.89 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2419821f-7c25-4aa3-a753-81309f559fd0")
 	)
 	(label "ERM vin"
 		(at 21.59 74.93 0)
@@ -5784,6 +5780,16 @@
 			(justify left bottom)
 		)
 		(uuid "95c4fd6f-14d4-4a0e-888e-282a7a869b9d")
+	)
+	(label "EN"
+		(at 168.91 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "984d6d39-62ef-4b1f-a6cc-fdcf16cb353a")
 	)
 	(label "TMC UART"
 		(at 171.45 30.48 0)
@@ -6222,73 +6228,6 @@
 			(project "autobleedr_pcb"
 				(path "/1cb070e6-4268-4590-be3a-70f1be021dfd"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 167.64 19.05 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e64dfa4-9ed7-4be5-ac06-55bdc5edec1c")
-		(property "Reference" "#PWR040"
-			(at 173.99 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 171.45 19.0499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a807fb1-44f3-443c-8af0-4f3722295575")
-		)
-		(instances
-			(project "autobleedr_pcb"
-				(path "/1cb070e6-4268-4590-be3a-70f1be021dfd"
-					(reference "#PWR040")
 					(unit 1)
 				)
 			)
