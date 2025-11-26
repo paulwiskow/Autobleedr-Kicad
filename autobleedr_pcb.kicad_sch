@@ -6183,7 +6183,7 @@
 				)
 			)
 		)
-		(property "Value" "1500R"
+		(property "Value" "1k5R"
 			(at 251.46 104.14 90)
 			(effects
 				(font
@@ -9127,7 +9127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f744a2bf-9e35-41a9-b231-94956a1c6974")
-		(property "Reference" "Q1"
+		(property "Reference" "DMP6023LE1"
 			(at 73.66 27.9399 0)
 			(effects
 				(font
@@ -9211,7 +9211,7 @@
 		(instances
 			(project ""
 				(path "/1cb070e6-4268-4590-be3a-70f1be021dfd"
-					(reference "Q1")
+					(reference "DMP6023LE1")
 					(unit 1)
 				)
 			)
