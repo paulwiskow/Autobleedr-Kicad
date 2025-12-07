@@ -200,7 +200,7 @@
 		(descr "terminal block MaiXu MX126-5.0-02P, 2 pins, pitch 5mm, size 10.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu")
 		(tags "THT terminal block MaiXu MX126-5.0-02P pitch 5mm size 10.5x7.8mm drill 1.3mm pad 2.8mm")
 		(property "Reference" "J7"
-			(at 9.01 -0.63 180)
+			(at 8.81 -1.83 180)
 			(layer "F.SilkS")
 			(uuid "62d2e262-f216-417f-afe6-856bf68db79d")
 			(effects
@@ -5751,7 +5751,7 @@
 		(uuid "7d98661c-5540-4af8-b2ac-4dd00400768d")
 		(at 64.049902 90.41995 90)
 		(property "Reference" "LinU1"
-			(at 5.75 -0.92 90)
+			(at 6.37 -1.95 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "2efd6b06-27b5-43bc-b700-0f57a1b26b8e")
@@ -6976,7 +6976,7 @@
 			)
 		)
 		(fp_text user "Motor"
-			(at -2.32 -5.29 90)
+			(at -1.65 -5.25 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "04a8ada7-7535-4ab2-9b76-c25da9dca946")
@@ -7002,7 +7002,7 @@
 			)
 		)
 		(fp_text user "Photo Trans"
-			(at 19.17 -5.51 90)
+			(at 20.75 -6.35 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "2aacf6e9-f618-4c9b-a9b3-e0b4d5a18cef")
@@ -7054,7 +7054,7 @@
 			)
 		)
 		(fp_text user "IR LED"
-			(at 6.94 -5.37 90)
+			(at 8.75 -5.35 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "dcb096e6-3c92-4e5a-84ba-a0a1481b9e50")
@@ -9389,7 +9389,7 @@
 		(uuid "ec05fdaa-55e5-44ae-9544-da6cd1b9b5aa")
 		(at 76.509902 111.12995)
 		(property "Reference" "U6"
-			(at 12.29 -12.83 0)
+			(at 8.29 -12.78 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "7c5b935e-418a-4a2d-b4a5-b5eec3901ea3")
@@ -9889,6 +9889,18 @@
 		(layer "Edge.Cuts")
 		(uuid "d1a9dd84-aa69-438c-9b7b-4b2ca629cadc")
 	)
+	(gr_text "VIN"
+		(at 87.499902 97.84995 0)
+		(layer "F.SilkS")
+		(uuid "09216cfb-cfa9-48ff-9eee-174b835b841e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "AutoBleedr V2\n"
 		(at 90.519902 99.43995 270)
 		(layer "F.SilkS")
@@ -9897,6 +9909,18 @@
 			(font
 				(size 1.905 1.905)
 				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "VIN"
+		(at 58.699902 99.74995 270)
+		(layer "F.SilkS")
+		(uuid "7638b544-052a-42fb-86c8-9d9f8b87b460")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
@@ -9914,9 +9938,79 @@
 		)
 	)
 	(gr_text "VIN"
+		(at 58.699902 89.84995 270)
+		(layer "F.SilkS")
+		(uuid "8953b1a4-d87c-4262-b780-ca1e3c85239e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 88.799902 84.84995 0)
+		(layer "F.SilkS")
+		(uuid "964bbafb-9522-411e-bd13-fbfe3d3bad47")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "VIN"
+		(at 58.599902 78.74995 270)
+		(layer "F.SilkS")
+		(uuid "99aa2734-59f5-4559-a867-73598c0b4eff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "100uF\n"
+		(at 65.999902 78.99995 0)
+		(layer "F.SilkS")
+		(uuid "adee14c1-43cd-4f15-8fa6-e93a8841d40b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "VIN"
 		(at 55.549902 80.29995 270)
 		(layer "F.SilkS")
 		(uuid "c65910bd-ad03-4329-a78e-889d868020b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "100uF\n"
+		(at 75.899902 79.24995 0)
+		(layer "F.SilkS")
+		(uuid "d0caadc7-88ff-418b-abeb-2e2243329070")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "VIN"
+		(at 58.699902 110.24995 270)
+		(layer "F.SilkS")
+		(uuid "eeac8a1d-040b-4eac-aba0-5f3b5076faff")
 		(effects
 			(font
 				(size 1 1)
